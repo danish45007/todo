@@ -2,6 +2,7 @@ body {
     background-color: #073642;
 }
 
+
 #container {
     width: 350px;
     height: auto;
@@ -15,10 +16,16 @@ body {
     border-radius: 10px;
 }
 
+#container {
+    background-image: url("./work.jpg");
+  }
+  
+
 #container h1 {
     margin-top: 50px;
     margin-bottom: 50px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 #container ul {
@@ -66,6 +73,7 @@ body {
     top: 0px;
     left: 7px;
     color: black;
+    font-weight: bold;
 }
 
 
@@ -113,7 +121,7 @@ body {
 }
 
 #container .controls #input:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 
 }
 
